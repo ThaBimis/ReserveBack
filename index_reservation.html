@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Title</title>
+<script src="script.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+<div id = '1'>
+    <p id = 'p1'>Η θέση είναι άδεια<br>αυτη τη στιγμή</p>
+    <button id = "button1" class = 'button' value = '1'>Reserve</button>
+</div>
+<div id = '2'>
+    <p id = 'p2'>Η θέση είναι άδεια<br>αυτη τη στιγμή</p>
+    <button id="button2" class = 'button' value = '2'>Reserve</button>
+</div>
+<div id = '3'>
+    <p id = 'p3'>Η θέση είναι άδεια<br>αυτη τη στιγμή</p>
+    <button id = "button3" class = 'button' value = '3'>Reserve</button>
+</div>
+<div id = '4'>
+    <p id = 'p4'>Η θέση είναι άδεια<br>αυτη τη στιγμή</p>
+    <button id = "button4" class = 'button' value = '4'>Reserve</button>
+</div>
+
+</div>
+
+<!-- Trigger/Open The Modal -->
+
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+
+      <form id = 'myform'>
+      <input name = 'my-input'>
+      <button id = reserve_button>Reserve Seat</button>
+    </form>
+    </div>
+  
+  </div>
+<script src="modal.js" async></script>
+</body>
+</html>
