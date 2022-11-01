@@ -7,6 +7,7 @@ let form = document.getElementById("myform");
 
 
 
+
 for (let i = 0; i < alldivs.length; i++) {
     alldivs[i].onclick = function(){
         modal.style.display = "block";

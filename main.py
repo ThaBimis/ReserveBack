@@ -8,6 +8,7 @@ users_new = {"1": {'name': '','state': False}, "2": {'name': '','state': False},
 admin = '1233456'
 
 
+
 app = FastAPI()
 
 origins = [
